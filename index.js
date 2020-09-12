@@ -5,7 +5,7 @@ function saturdayFun(activity="roller-skate"){
 function mondayWork(activity="go to the office"){
     return `This Monday, I will ${activity}.`;
 }
-function wrapAdjective(visFlair="*"){
+function wrapAdjective(visFlair){
     if(visFlair==="*"){
     return function(adj="a hard worker"){
         return`You are ${visFlair} ${adj} ${visFlair}!`;
