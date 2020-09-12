@@ -12,7 +12,7 @@ function wrapAdjective(visFlair="*"){
     }}
     else if(visFlair==="//"){
     return function(adj="special"){
-        return`You are ${visFlair} ${adj} ${visFlair}!`;
+        return`You are ${visFlair} "a dedicated programmer" ${visFlair}!`;
     }}
 }
     let Calculator={
