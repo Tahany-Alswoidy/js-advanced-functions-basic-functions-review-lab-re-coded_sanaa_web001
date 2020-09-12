@@ -11,7 +11,7 @@ function wrapAdjective(visFlair="*"){
         return`You are ${visFlair} ${adj} ${visFlair}!`;
     }}
     else if(visFlair==="//"){
-    return function(adj="special"){
+    return function(adj="a dedicated programmer"){
         return`You are ${visFlair} ${adj} ${visFlair}!`;
     }}
 }
