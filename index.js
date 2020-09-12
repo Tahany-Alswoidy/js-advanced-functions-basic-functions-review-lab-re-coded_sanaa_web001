@@ -7,12 +7,12 @@ function mondayWork(activity="go to the office"){
 }
 function wrapAdjective(visFlair){
     if(visFlair==="*"){
-    return function(adj="a hard worker"){
-        return`You are ${visFlair} ${adj} ${visFlair}!`;
+    return function(){
+        return`You are ${visFlair} a hard worker ${visFlair}!`;
     }}
     else if(visFlair==="//"){
-    return function(adj="a dedicated programmer"){
-        return`You are ${visFlair} ${adj} ${visFlair}!`;
+    return function(){
+        return`You are ${visFlair} a dedicated programmer ${visFlair}!`;
     }}
 }
     let Calculator={
