@@ -10,7 +10,7 @@ function wrapAdjective(visFlair="*"){
     return function(adj="special"){
         return`You are ${visFlair}"a hard worker"${visFlair}!`;
     }}
-    else if(visFlair==="//"){
+    else if(visFlair==="||"){
     return function(adj="special"){
         return`You are ${visFlair}"a dedicated programmer"${visFlair}!`;
     }}
