@@ -14,6 +14,9 @@ function wrapAdjective(visFlair="*"){
     return function(adj="special"){
         return`You are ${visFlair} "a dedicated programmer" ${visFlair}!`;
     }}
+    return function(adj="special"){
+        return`You are ${visFlair} ${adj} ${visFlair}!`;
+    }
 }
     let Calculator={
       add(){return 1+3;},
