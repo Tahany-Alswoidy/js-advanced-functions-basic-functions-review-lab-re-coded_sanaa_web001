@@ -8,11 +8,11 @@ function mondayWork(activity="go to the office"){
 function wrapAdjective(visFlair="*"){
     if(visFlair==="*"){
     return function(adj="special"){
-        return`You are ${visFlair} "a hard worker" ${visFlair}!`;
+        return`You are ${visFlair}"a hard worker"${visFlair}!`;
     }}
     else if(visFlair==="//"){
     return function(adj="special"){
-        return`You are ${visFlair} "a dedicated programmer" ${visFlair}!`;
+        return`You are ${visFlair}"a dedicated programmer"${visFlair}!`;
     }}
     return function(adj="special"){
         return`You are ${visFlair} ${adj} ${visFlair}!`;
