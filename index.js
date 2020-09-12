@@ -5,14 +5,14 @@ function saturdayFun(activity="roller-skate"){
 function mondayWork(activity="go to the office"){
     return `This Monday, I will ${activity}.`;
 }
-function wrapAdjective(visFlair){
+function wrapAdjective(visFlair="*"){
     if(visFlair==="*"){
-    return function(){
-        return`You are ${visFlair} a hard worker ${visFlair}!`;
+    return function(adj="special"){
+        return`You are ${visFlair} ${adj} ${visFlair}!`;
     }}
     else if(visFlair==="//"){
-    return function(){
-        return`You are ${visFlair} a dedicated programmer ${visFlair}!`;
+    return function(adj="special"){
+        return`You are ${visFlair} ${adj} ${visFlair}!`;
     }}
 }
     let Calculator={
